@@ -1,10 +1,10 @@
-# 🔗 Useful Links
+# Useful Links
 
 Une sélection de ressources utiles pour le développement en Data Science, Machine Learning et Python.
 
 ---
 
-# 🐍 Python
+# Python
 
 - Python Documentation  
   https://docs.python.org/3/
@@ -17,7 +17,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 🔢 NumPy
+# NumPy
 
 - Documentation officielle  
   https://numpy.org/doc/
@@ -30,7 +30,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 🐼 Pandas
+# Pandas
 
 - Documentation officielle  
   https://pandas.pydata.org/docs/
@@ -43,7 +43,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 📊 Matplotlib
+# Matplotlib
 
 - Documentation officielle  
   https://matplotlib.org/
@@ -53,17 +53,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 📈 Seaborn
-
-- Documentation officielle  
-  https://seaborn.pydata.org/
-
-- Gallery  
-  https://seaborn.pydata.org/examples/
-
----
-
-# 🤖 Scikit-Learn
+# Scikit-Learn
 
 - Documentation officielle  
   https://scikit-learn.org/stable/
@@ -79,21 +69,21 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 📦 Joblib
+# Joblib
 
 - Documentation officielle  
   https://joblib.readthedocs.io/
 
 ---
 
-# 📓 Jupyter
+# Jupyter
 
 - Documentation officielle  
   https://jupyter.org/
 
 ---
 
-# 🧠 Machine Learning
+# Machine Learning
 
 ## Livres
 
@@ -106,7 +96,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 📚 Cours
+# Cours
 
 - Coursera Machine Learning
   https://www.coursera.org/
@@ -119,20 +109,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 📊 Jeux de données
-
-- Kaggle Datasets
-  https://www.kaggle.com/datasets
-
-- UCI Machine Learning Repository
-  https://archive.ics.uci.edu/
-
-- Google Dataset Search
-  https://datasetsearch.research.google.com/
-
----
-
-# 💻 Git & GitHub
+# Git & GitHub
 
 - Git Documentation
   https://git-scm.com/docs
@@ -145,23 +122,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# ☁️ Déploiement
-
-- Streamlit
-  https://streamlit.io/
-
-- FastAPI
-  https://fastapi.tiangolo.com/
-
-- Docker
-  https://docs.docker.com/
-
-- MLflow
-  https://mlflow.org/
-
----
-
-# 🎓 Communautés
+# Communautés
 
 - Stack Overflow
   https://stackoverflow.com/
@@ -180,7 +141,7 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 ---
 
-# 🔍 Outils utiles
+# Outils utiles
 
 - Google Colab
   https://colab.research.google.com/
@@ -193,4 +154,3 @@ Une sélection de ressources utiles pour le développement en Data Science, Mach
 
 - Weights & Biases
   https://wandb.ai/
-

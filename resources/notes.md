@@ -1,4 +1,4 @@
-# 📝 Notes de Développement
+# Notes de Développement
 
 ## Objectif
 
@@ -8,7 +8,7 @@ Ce document regroupe les différentes notes prises au cours du développement du
 
 # Journal de progression
 
-## Phase 1 — Prise en main des données
+## Prise en main des données
 
 - Chargement des deux jeux de données.
 - Inspection des types de données.
@@ -19,12 +19,12 @@ Ce document regroupe les différentes notes prises au cours du développement du
 
 ## Phase 2 — Prétraitement
 
-### Dataset Housing
+### Dataset rent_prediction.csv
 
 Actions réalisées :
 
 - Suppression de `IdentifiantMaison`
-- Imputation des variables numériques par la médiane
+- Imputation des variables numériques par la moyenne
 - Imputation des variables catégorielles par le mode
 
 Remarque :
@@ -33,7 +33,7 @@ L'identifiant ne possède aucune valeur prédictive.
 
 ---
 
-### Dataset Employee
+### Dataset employee_satisfaction.csv
 
 Actions réalisées :
 
@@ -51,21 +51,19 @@ Chaque méthode d'encodage a été choisie selon la nature de la variable.
 
 # Analyse Exploratoire
 
-Observations intéressantes
+## rent_prediction
 
-## Housing
-
-- Les maisons les plus grandes présentent généralement un loyer plus élevé.
+- Les maisons les plus grandes présentent un loyer plus élevé.
 - Les quartiers influencent fortement les prix.
 - La présence d'un jardin ou d'un parking augmente souvent le loyer.
 
 ---
 
-## Employee
+## employee_satisfaction
 
 - Les employés ayant davantage d'heures supplémentaires semblent moins satisfaits.
 - L'équilibre vie professionnelle / vie personnelle paraît fortement corrélé avec la satisfaction.
-- Les absences sont généralement plus nombreuses chez les employés non satisfaits.
+- Les absences sont plus nombreuses chez les employés non satisfaits.
 
 ---
 
@@ -93,11 +91,9 @@ Modèles testés :
 - Logistic Regression
 - Decision Tree
 
-Modèles à tester ultérieurement :
+Améliorations possibles :
 
-- Random Forest
-- Support Vector Machine (SVM)
-- K-Nearest Neighbors
+- Random Forest Classifier
 - XGBoost Classifier
 - CatBoost
 
@@ -132,7 +128,6 @@ Tester :
 - Grid Search
 - Random Search
 - Feature Importance
-- SHAP Values
 
 ---
 
@@ -145,17 +140,6 @@ Toujours :
 - Utiliser des Pipelines Scikit-Learn.
 - Sauvegarder les modèles.
 - Versionner le code avec Git.
-
----
-
-# Idées d'évolution
-
-Le projet pourrait évoluer vers :
-
-- une API REST avec FastAPI ou Flask ;
-- une interface Streamlit pour les prédictions ;
-- un tableau de bord Power BI ou Tableau ;
-- un déploiement dans le cloud (Docker + Render, Railway ou Azure).
 
 ---
 
